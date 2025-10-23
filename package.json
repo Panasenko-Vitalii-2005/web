@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
@@ -10,7 +11,7 @@
     "preview": "vite preview"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/Panasenko-Vitalii-2005/web.git"
   },
   "keywords": [],
