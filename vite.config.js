@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url'
-import handlebars from 'vite-plugin-handlebars'
-import tailwindcss from '@tailwindcss/vite'; 
+import { fileURLToPath } from 'node:url';
+import handlebars from 'vite-plugin-handlebars';
+import tailwindcss from '@tailwindcss/vite';
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname  = dirname(__filename)
